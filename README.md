@@ -733,5 +733,5 @@ Monitoring server
 
 # This project will be continued later for additional features.
  * Pushing docker image from Jenkins to AWS ECR and further deploying in AWS EKS for continuous deployment.
- * Pushing docker image from Jenkins to ARGOcd and Further in Kubernetes for continuous deploymrnt.
+
 
