@@ -731,3 +731,7 @@ Monitoring server
 1. **Cleanup AWS EC2 Instances:**
     - Terminate AWS EC2 instances that are no longer needed.
 
+# This project will be continued later for additional features.
+ * Pushing docker image from Jenkins to AWS ECR and further deploying in AWS EKS for continuous deployment.
+ * Pushing docker image from Jenkins to ARGOcd and Further in Kubernetes for continuous deploymrnt.
+
