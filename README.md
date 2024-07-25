@@ -1,7 +1,7 @@
 # Devops Netflix Clone on Cloud using Jenkins 
 
 ## Introduction: 
-In this project we we'll deploy a complete Netflix homepage listed with real movies. A docker image will be created which will be deployed automatically on our main server using jenkins. A seperate monitoring server will be created to monitor our main server. Security measures in this project include SonarQube which will test the integrity of our code and Trivy to test integrity of our docker image. On every successful build we will recieve email notifications from Jenkins using SMTP server.
+In this project, we'll deploy a complete Netflix homepage with real movies. A docker image will be created which will be deployed automatically on our main server using Jenkins. A separate monitoring server will be created to monitor our main server. Security measures in this project include SonarQube which will test the integrity of our code and Trivy to test the integrity of our docker image. On every successful build, we will recieve email notifications from Jenkins using the SMTP server.
 
 ## Services used:
 
