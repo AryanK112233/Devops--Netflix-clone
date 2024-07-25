@@ -7,7 +7,7 @@ In this project, we'll deploy a complete Netflix homepage with real movies. A do
 
 * AWS EC2
 * Docker
-* Jenkines
+* Jenkins
 * OWASP
 * SonarQube
 * Trivy
@@ -19,7 +19,7 @@ In this project, we'll deploy a complete Netflix homepage with real movies. A do
 
 * Main server (t2.large)
     * Docker
-    * Kenkins 
+    * Jenkins 
     * Owasp 
     * Sonarqube
     * Trivy
@@ -63,9 +63,9 @@ In this project, we'll deploy a complete Netflix homepage with real movies. A do
 
 **Step 4: Get the API Key:**
 
-To show realtime movies in our Netflix app we'll use a movie database API
+To show real-time movies in our Netflix app we'll use a movie database API
 
-- Open a web browser and navigate to TMDB (The Movie Database) website.
+- Open a web browser and navigate to the TMDB (The Movie Database) website.
 - Click on "Login" and create an account.
 - Once logged in, go to your profile and select "Settings."
 - Click on "API" from the left-side panel.
@@ -349,11 +349,11 @@ Jenkins Dashboard
 ![alt text](images/pipeline.png)
  This image represents the above pipeline's steps
 
-After successful pipeline status a docker image will be pushed in your Docker hub account
+After successful pipeline status, a docker image will be pushed in your Docker hub account
 
 ![alt text](images/dockerhub.png)
 ### Note: 
-If you get docker login failed erorr,  
+If you get docker login failed error,  
 Run: 
 ```
 sudo su
@@ -630,11 +630,11 @@ sudo systemctl status grafana-server
 
 **Step 7: Access Grafana Web Interface:**
 
-Open a web browser and navigate to Grafana using your server's IP address. The default port for Grafana is 3000. For example:
+You can just open a web browser and navigate to Grafana using your server's IP address. The default port for Grafana is 3000. For example:
 
 `http://<your-server-ip>:3000`
 
-You'll be prompted to log in to Grafana. The default username is "admin," and the default password is also "admin."
+You'll be prompted to log in to Grafana. The default username is "admin," and the default password is "admin."
 
 **Step 8: Change the Default Password:**
 
